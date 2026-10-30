@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noir Desk | Web Based Mystery Solving System</title>
+  <meta name="description" content="Investigate cases, question suspects, collect clues and name the culprit.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Web Based Mystery Solving System</span>
+          <h1>Every crime leaves a trail. <em>Follow it.</em></h1>
+          <p class="lead">Step into the detective's chair. Search crime scenes, interrogate suspects, collect evidence in your case board and name the culprit - before you run out of attempts.</p>
+          <div class="hero-actions" id="heroActions"></div>
+          <div class="stats">
+            <div><b id="statCases">3</b><span>Open cases</span></div>
+            <div><b id="statClues">33</b><span>Clues to uncover</span></div>
+            <div><b id="statUsers">0</b><span>Detectives registered</span></div>
+          </div>
+        </div>
+
+        <div class="auth-card" id="authCard"></div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head">
+          <h2>How an investigation works</h2>
+          <p>Every action costs points, so think before you act. A sharp detective solves a case with fewer moves.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><div class="no">01</div><h3>Read the briefing</h3><p>Every case opens with a short report. Note the facts, the time and the place.</p></div>
+          <div class="step"><div class="no">02</div><h3>Search &amp; question</h3><p>Investigate locations and interrogate suspects to uncover hidden clues.</p></div>
+          <div class="step"><div class="no">03</div><h3>Build your board</h3><p>All evidence collects on your case board. Keep private notes as you connect the dots.</p></div>
+          <div class="step"><div class="no">04</div><h3>Make an accusation</h3><p>Name the culprit, method and motive. You get three attempts - choose carefully.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
